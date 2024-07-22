@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: #c7a9e8 #e9d5ff;
+  scrollbar-width: auto;
+}
+
+.custom-dot-list-style {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.custom-dot-list-style li {
+  margin: 0 5px;
+}
+
+.custom-dot-list-style button {
+  border: 1px solid rgb(212 212 212) !important;
+  background: #e9d5ff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.custom-dot-list-style .react-multi-carousel-dot--active button {
+  background: #a25ce1;
+}
+
+.swal2-popup {
+  @apply !font-jakarta !font-semibold;
+}
