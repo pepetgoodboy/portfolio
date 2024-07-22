@@ -40,16 +40,16 @@ export default function About() {
           >
             Hello! My name is Muhammad Iqbal Mudzaki, you can call me Iqbal,
             Pepet or whatever you want. I'm a 4th semester student at Politeknik
-            Praktisi Bandung, focusing on becoming a proficient{" "}
+            Praktisi Bandung, focusing on becoming a{" "}
             <span className="text-purple-700">Front-end Developer</span> located
-            in West Java, Indonesia. As a Front-end Develover I used to code
+            in West Java, Indonesia. As a Front-end Developer I used to code
             websites from stratch. I love to create simple yet beautiful
-            websites with great user experience. I building the Front-end of
+            websites with great user experience. I build the Front-end of
             Websites and Web Applications that leads to the success of the
             overall product. Check out some of my work in the Project section.
             Feel free to Connect or Follow me on my{" "}
             <Link
-              href="https://www.linkedin.com/in/iqbaltw/"
+              href="https://www.linkedin.com/in/muhammad-iqbal-mudzaki-84a02824a/"
               target="_blank"
               className="text-purple-700"
             >
