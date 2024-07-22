@@ -66,10 +66,10 @@ export default function Project() {
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Link href={project.github}>
+                    <Link href={project.github} target="_blank">
                       <FaGithub className="w-7 h-7 hover:scale-125 duration-500 transition-all" />
                     </Link>
-                    <Link href={project.link}>
+                    <Link href={project.link} target="_blank">
                       <FaGlobe className="w-7 h-7 text-[#800080] hover:scale-125 duration-500 transition-all" />
                     </Link>
                   </div>
