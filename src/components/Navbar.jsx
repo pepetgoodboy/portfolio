@@ -84,7 +84,7 @@ export default function Navbar() {
             >
               Contact
             </Link>
-            <a
+            {/* <a
               href="/"
               onClick={toggleMenu}
               className="text-3xl md:text-4xl font-bold hover:text-purple-600 hover:font-extrabold"
@@ -93,7 +93,7 @@ export default function Navbar() {
               target="_blank"
             >
               Download CV
-            </a>
+            </a> */}
           </div>
           <div className="absolute -right-0.5 top-[51%] rotate-[270deg]">
             <button onClick={toggleMenu}>
