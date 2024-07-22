@@ -13,12 +13,14 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/icon.png" type="image/png" sizes="any" />
         <title>My Portfolio</title>
       </Head>
-      <AnimatedCursor
-        color="128, 0, 128"
-        innerSize={12}
-        outerSize={24}
-        zIndex={50}
-      />
+      <div className="hidden sm:block">
+        <AnimatedCursor
+          color="128, 0, 128"
+          innerSize={12}
+          outerSize={24}
+          zIndex={50}
+        />
+      </div>
       <Component {...pageProps} />
     </>
   );
