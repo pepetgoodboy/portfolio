@@ -25,7 +25,7 @@ export default function Project() {
         </h2>
         <p
           data-aos="fade-up"
-          className="mx-auto text-gray-500 mb-16 text-center text-lg w-full"
+          className="mx-auto text-gray-500 dark:text-gray-400 mb-16 text-center text-lg w-full"
         >
           Browse through my project and see the diverse range of website I've
           designed and developed. You can click on the icons below to see the
@@ -36,7 +36,7 @@ export default function Project() {
             <div
               key={project.id}
               data-aos="fade-up"
-              className="mx-auto rounded-xl bg-transparent border border-1 border-opacity-25 border-purple-300 hover:border-purple-600 shadow-xl hover:scale-110 duration-500 transition-all"
+              className="mx-auto rounded-xl bg-transparent border border-1 border-opacity-25 border-purple-300 hover:border-purple-600 hover:border-2 shadow-xl hover:scale-110 duration-500 transition-all"
             >
               <div className="bg-transparent">
                 <Image
@@ -48,13 +48,15 @@ export default function Project() {
               <div className="py-4 bg-opacity-75 px-4 rounded-b-xl z-20">
                 <div className="flex items-center md:gap-2 justify-between">
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-500">
+                    <h3 className="text-xl font-semibold text-gray-500 dark:text-gray-300">
                       {project.name}
                     </h3>
-                    <p className="text-sm mb-1 font-medium text-gray-500">
+                    <p className="text-sm mb-1 font-medium text-gray-500 dark:text-gray-300">
                       {project.types}
                     </p>
-                    <p className="text-gray-500 mt-3 text-xs">{project.desc}</p>
+                    <p className="text-gray-500 dark:text-gray-400 mt-3 text-xs">
+                      {project.desc}
+                    </p>
                     <div className="flex items-center gap-2 mt-4">
                       {project.icon.map(({ Icon, color }, index) => (
                         <Icon
@@ -70,7 +72,7 @@ export default function Project() {
                       <FaGithub className="w-7 h-7 hover:scale-125 duration-500 transition-all" />
                     </Link>
                     <Link href={project.link} target="_blank">
-                      <FaGlobe className="w-7 h-7 text-[#800080] hover:scale-125 duration-500 transition-all" />
+                      <FaGlobe className="w-7 h-7 text-[#800080] dark:text-purple-500 hover:scale-125 duration-500 transition-all" />
                     </Link>
                   </div>
                 </div>

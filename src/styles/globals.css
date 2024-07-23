@@ -10,6 +10,10 @@ html {
   scrollbar-width: auto;
 }
 
+.dark {
+  scrollbar-color: #5b5b5b #141414;
+}
+
 .custom-dot-list-style {
   position: absolute;
   bottom: 0;

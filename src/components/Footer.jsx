@@ -3,7 +3,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#800080] bg-opacity-90 font-jakarta">
+    <footer className="bg-[#800080] dark:bg-[#141414] bg-opacity-90 font-jakarta">
       <div className="mx-auto w-5/6">
         <div className="flex justify-between py-8 flex-col-reverse gap-y-6 sm:flex-row">
           <div className="flex flex-col gap-y-6 md:w-[90%]">

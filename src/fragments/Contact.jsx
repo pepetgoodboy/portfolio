@@ -60,8 +60,7 @@ export default function Contact() {
           </h2>
           <div
             data-aos="fade-up"
-            className="mx-auto w-11/12 md:w-full rounded-xl bg-cover bg-center bg-no-repeat bg-fixed"
-            style={{ backgroundImage: `url(/bg-contact.jpg)` }}
+            className="mx-auto w-11/12 md:w-full rounded-xl bg-cover bg-center bg-no-repeat bg-fixed bg-purple-500 dark:bg-neutral-800"
           >
             <div className="mx-auto mb-24 p-8 sm:p-24">
               <div className="text-center pb-8">
@@ -94,7 +93,7 @@ export default function Contact() {
                         id="name"
                         name="name"
                         required
-                        className="w-full rounded-md text-gray-500 h-10 px-2 outline-none focus:outline-purple-500"
+                        className="w-full rounded-md text-gray-500 h-10 px-2 dark:bg-white outline-none focus:outline-purple-500"
                       />
                     </label>
                   </div>
@@ -106,7 +105,7 @@ export default function Contact() {
                         id="email"
                         name="email"
                         required
-                        className="w-full rounded-md text-gray-500 h-10 px-2 outline-none focus:outline-purple-500"
+                        className="w-full rounded-md text-gray-500 h-10 px-2 dark:bg-white outline-none focus:outline-purple-500"
                       />
                     </label>
                   </div>
@@ -118,13 +117,13 @@ export default function Contact() {
                       id="message"
                       name="message"
                       required
-                      className="w-full rounded-md text-gray-500 h-28 px-2 outline-none focus:outline-purple-500"
+                      className="w-full rounded-md text-gray-500 h-28 px-2 dark:bg-white outline-none focus:outline-purple-500"
                     />
                   </label>
                 </div>
                 <div className="text-center">
                   <button
-                    className="px-6 py-2 bg-[#800080] text-white font-semibold rounded-md"
+                    className="px-6 py-2 bg-[#800080] dark:bg-black text-white font-semibold rounded-md"
                     type="submit"
                   >
                     Submit

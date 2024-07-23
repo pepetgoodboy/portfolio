@@ -1,6 +1,7 @@
 import Head from "next/head";
 import "../styles/globals.css";
 import dynamic from "next/dynamic";
+import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
   const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
@@ -21,7 +22,9 @@ function MyApp({ Component, pageProps }) {
           zIndex={50}
         />
       </div>
-      <Component {...pageProps} />
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

@@ -43,7 +43,7 @@ export default function Certificate() {
         </h2>
         <p
           data-aos="fade-up"
-          className="mx-auto text-gray-500 mb-16 text-center text-lg w-full"
+          className="mx-auto text-gray-500 dark:text-gray-400 mb-16 text-center text-lg w-full"
         >
           I'm always learning and growing, and these certifications are proof.
         </p>
@@ -81,7 +81,7 @@ export default function Certificate() {
                 <div className="relative w-full h-full">
                   <Image src={certificate.image} alt="Certificate" />
                 </div>
-                <h3 className="text-sm md:text-lg text-center mt-3 text-gray-500 font-medium">
+                <h3 className="text-sm md:text-lg text-center mt-3 text-gray-500 dark:text-gray-400 font-medium">
                   {certificate.name}
                 </h3>
               </div>

@@ -15,14 +15,14 @@ export default function Navbar() {
         <div className="w-full">
           <button
             onClick={toggleMenu}
-            className="px-3 bg-[#800080] py-0.5 rounded-t-xl"
+            className="px-3 bg-[#800080] dark:bg-[#D1D5DB] py-0.5 rounded-t-xl"
           >
-            <TiArrowSortedUp className="w-8 h-8" color="#E9D5FF" />
+            <TiArrowSortedUp className="w-8 h-8 text-[#E9D5FF] dark:text-black" />
           </button>
         </div>
       </div>
       {open && (
-        <div className="fixed w-full h-full bg-[#E9D5FF]">
+        <div className="fixed w-full h-full bg-[#E9D5FF] dark:bg-[#D1D5DB]">
           <div className="flex items-center justify-center min-h-screen flex-col gap-12 text-neutral-500">
             <Link
               activeClass="active"

@@ -31,7 +31,7 @@ export default function Home() {
               />
             </div>
             <div className="text-center">
-              <h2 className="flex items-center justify-center gap-2 py-4 font-medium text-gray-500">
+              <h2 className="flex items-center justify-center gap-2 py-4 font-medium text-gray-500 dark:text-gray-400">
                 Hi, I'm Iqbal{" "}
                 <span className="w-8">
                   <Image unoptimized src={Finger} alt="finger" />
@@ -42,16 +42,16 @@ export default function Home() {
               </p>
               <div className="flex flex-col gap-1">
                 <div className="w-full">
-                  <hr className="border-2 border-slate-300 rounded-full" />
+                  <hr className="border-2 border-slate-300 dark:border-gray-700 rounded-full" />
                 </div>
                 <div className="w-5/6 mx-auto">
-                  <hr className="border-2 border-slate-300 rounded-full" />
+                  <hr className="border-2 border-slate-300 dark:border-slate-700 rounded-full" />
                 </div>
                 <div className="w-4/6 mx-auto">
-                  <hr className="border-2 border-slate-300 rounded-full" />
+                  <hr className="border-2 border-slate-300 dark:border-slate-700 rounded-full" />
                 </div>
               </div>
-              <p className="mx-auto w-5/6 font-medium mt-2 text-gray-500">
+              <p className="mx-auto w-5/6 font-medium mt-2 text-gray-500 dark:text-gray-300">
                 I design and code beautifully simple things, and I love what I
                 do.
               </p>
