@@ -12,7 +12,7 @@ const ListProject = [
     name: "Ayam Tuwajuh",
     image: Ayam,
     types: "Website",
-    desc: "A food website made using React and Tailwind CSS.",
+    desc: "A simple e-commerce website made using React, Tailwind CSS, and MongoDB.",
     icon: [
       { Icon: FaReact, color: "#08CEFF" },
       { Icon: RiTailwindCssFill, color: "#3EBFF8" },
