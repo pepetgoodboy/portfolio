@@ -1,6 +1,5 @@
 import Ayam from "../assets/images/ayamtuwajuh.png";
 import Mamae from "../assets/images/mamae.png";
-import MyNotes from "../assets/images/mynotes.png";
 import Curhatin from "../assets/images/curhatin.png";
 import Portfolio from "../assets/images/portfolio.png";
 import { FaReact, FaPhp, FaLaravel } from "react-icons/fa";
@@ -18,8 +17,8 @@ const ListProject = [
       { Icon: FaReact, color: "#08CEFF" },
       { Icon: RiTailwindCssFill, color: "#3EBFF8" },
     ],
-    link: "https://ayamtuwajuh.vercel.app/",
-    github: "https://github.com/pepetgoodboy/ayamtuwajuh",
+    link: "https://ayam-tuwajuh.vercel.app/",
+    github: "https://github.com/pepetgoodboy/ayamtuwajuh-frontend",
   },
   {
     id: 2,
@@ -39,21 +38,6 @@ const ListProject = [
   },
   {
     id: 3,
-    name: "My Notes",
-    image: MyNotes,
-    types: "Website",
-    desc: "A notes website made using PHP, Laravel, MySQL, and Tailwind CSS.",
-    icon: [
-      { Icon: FaPhp, color: "#7B7FB5" },
-      { Icon: FaLaravel, color: "#FF2817" },
-      { Icon: SiMysql, color: "#5886A4" },
-      { Icon: RiTailwindCssFill, color: "#3EBFF8" },
-    ],
-    link: "https://mynotes-production-43ac.up.railway.app/",
-    github: "https://github.com/pepetgoodboy/mynotes",
-  },
-  {
-    id: 4,
     name: "Curhatin",
     image: Curhatin,
     types: "Website",
@@ -69,7 +53,7 @@ const ListProject = [
     github: "https://github.com/pepetgoodboy/curhatin-frontend",
   },
   {
-    id: 5,
+    id: 4,
     name: "Portfolio",
     image: Portfolio,
     types: "Website",

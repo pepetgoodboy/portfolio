@@ -2,7 +2,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "next/image";
-import Profil from "../assets/images/profil1.png";
+import Profil from "../assets/images/profil-transparent.png";
 import Finger from "../assets/images/finger.gif";
 import TypewriterComponent from "typewriter-effect";
 import Header from "@/components/Header";
@@ -27,7 +27,7 @@ export default function Home() {
                 priority
                 src={Profil}
                 alt="Iqbal"
-                className="text-center rounded-full stroke-2 stroke-slate-50 w-full h-40 object-cover"
+                className="text-center rounded-full stroke-2 bg-purple-200 dark:bg-[#C8C8C8] stroke-slate-50 w-full h-40 object-cover"
               />
             </div>
             <div className="text-center">
