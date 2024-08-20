@@ -4,6 +4,7 @@ import Cert3 from "../assets/images/cert3.png";
 import Cert4 from "../assets/images/cert4.png";
 import Cert5 from "../assets/images/cert5.png";
 import Cert6 from "../assets/images/cert6.png";
+import Cert7 from "../assets/images/cert7.jpg";
 
 const ListCertificate = [
   {
@@ -35,6 +36,11 @@ const ListCertificate = [
     id: 6,
     name: "Introduce of Cyber Security",
     image: Cert6,
+  },
+  {
+    id: 7,
+    name: "React JS Class",
+    image: Cert7,
   },
 ];
 
