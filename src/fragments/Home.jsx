@@ -38,7 +38,7 @@ export default function Home() {
                 </span>
               </h2>
               <p className="font-bold text-3xl bg-clip-text bg-gradient-to-r from-purple-700 to-purple-300 md:text-5xl pb-2 text-transparent">
-                Frontend Developer
+                Frontend Web Developer
               </p>
               <div className="flex flex-col gap-1">
                 <div className="w-full">

@@ -2,6 +2,8 @@ import Ayam from "../assets/images/ayamtuwajuh.png";
 import Mamae from "../assets/images/mamae.png";
 import Curhatin from "../assets/images/curhatin.png";
 import Portfolio from "../assets/images/portfolio.png";
+import Prakpoll from "../assets/images/prakpoll.png";
+import SuddenQuiz from "../assets/images/suddenquiz.png";
 import { FaReact, FaPhp, FaLaravel } from "react-icons/fa";
 import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import { SiMongodb, SiMysql, SiExpress } from "react-icons/si";
@@ -65,6 +67,35 @@ const ListProject = [
     ],
     link: "/",
     github: "https://github.com/pepetgoodboy/portfolio",
+  },
+  {
+    id: 5,
+    name: "Prakpoll",
+    image: Prakpoll,
+    types: "Website",
+    desc: "A e-voting website for election BEM Leader or Himpunan Leader made using React, Next.js, Tailwind CSS, and MongoDB.",
+    icon: [
+      { Icon: FaReact, color: "#08CEFF" },
+      { Icon: RiNextjsFill, color: "#000" },
+      { Icon: RiTailwindCssFill, color: "#3EBFF8" },
+      { Icon: SiMongodb, color: "#499C3A" },
+      { Icon: SiExpress, color: "#000" },
+    ],
+    link: "/",
+    github: "https://github.com/pepetgoodboy/prakpoll-frontend",
+  },
+  {
+    id: 6,
+    name: "Sudden Quiz",
+    image: SuddenQuiz,
+    types: "Website",
+    desc: "A random quiz application using API from Open Trivia DB made using React and Tailwind CSS.",
+    icon: [
+      { Icon: FaReact, color: "#08CEFF" },
+      { Icon: RiTailwindCssFill, color: "#3EBFF8" },
+    ],
+    link: "/",
+    github: "https://github.com/pepetgoodboy/sudden_quiz",
   },
 ];
 

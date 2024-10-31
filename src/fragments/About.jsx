@@ -39,14 +39,14 @@ export default function About() {
             className="mx-auto mb-6 md:text-lg text-gray-500 dark:text-gray-400 sm:text-center sm:w-5/6 text-justify w-full"
           >
             Hello! My name is Muhammad Iqbal Mudzaki, you can call me Iqbal,
-            Pepet or whatever you want. I'm a 4th semester student at Politeknik
+            Pepet or whatever you want. I'm a 5th semester student at Politeknik
             Praktisi Bandung, focusing on becoming a{" "}
             <span className="text-purple-700 dark:text-purple-500">
-              Front-end Developer
+              Frontend Web Developer
             </span>{" "}
-            located in West Java, Indonesia. As a Front-end Developer I used to
-            code websites from stratch. I love to create simple yet beautiful
-            websites with great user experience. I build the Front-end of
+            located in West Java, Indonesia. As a Frontend Web Developer I used
+            to code websites from stratch. I love to create simple yet beautiful
+            websites with great user experience. I build the Frontend of
             Websites and Web Applications that leads to the success of the
             overall product. Check out some of my work in the Project section.
             Feel free to Connect or Follow me on my{" "}
@@ -79,8 +79,6 @@ export default function About() {
                 <RiNextjsFill className="w-10 h-10 md:w-12 md:h-12 hover:scale-125 duration-500 transition-all" />
                 <SiMongodb className="w-10 h-10 md:w-12 md:h-12 text-[#499C3A] hover:scale-125 duration-500 transition-all" />
                 <SiExpress className="w-10 h-10 md:w-12 md:h-12 hover:scale-125 duration-500 transition-all" />
-                <FaPhp className="w-10 h-10 md:w-12 md:h-12 text-[#7B7FB5] hover:scale-125 duration-500 transition-all" />
-                <FaLaravel className="w-10 h-10 md:w-12 md:h-12 text-[#FF2817] hover:scale-125 duration-500 transition-all" />
                 <SiMysql className="w-10 h-10 md:w-12 md:h-12 text-[#5886A4] hover:scale-125 duration-500 transition-all" />
                 <RiTailwindCssFill className="w-10 h-10 md:w-12 md:h-12 text-[#3EBFF8] hover:scale-125 duration-500 transition-all" />
                 <FaGitAlt className="w-10 h-10 md:w-12 md:h-12 text-[#F05639] hover:scale-125 duration-500 transition-all" />
