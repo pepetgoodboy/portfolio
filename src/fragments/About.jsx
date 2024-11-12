@@ -2,18 +2,11 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Link from "next/link";
-import {
-  FaHtml5,
-  FaReact,
-  FaNodeJs,
-  FaPhp,
-  FaLaravel,
-  FaGitAlt,
-} from "react-icons/fa";
+import { FaHtml5, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
 import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiExpress, SiMysql, SiPostman } from "react-icons/si";
+import { SiMongodb, SiMysql, SiPostman } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
 export default function About() {
@@ -78,7 +71,6 @@ export default function About() {
                 <FaReact className="w-10 h-10 md:w-12 md:h-12 text-[#08CEFF] hover:scale-125 duration-500 transition-all" />
                 <RiNextjsFill className="w-10 h-10 md:w-12 md:h-12 hover:scale-125 duration-500 transition-all" />
                 <SiMongodb className="w-10 h-10 md:w-12 md:h-12 text-[#499C3A] hover:scale-125 duration-500 transition-all" />
-                <SiExpress className="w-10 h-10 md:w-12 md:h-12 hover:scale-125 duration-500 transition-all" />
                 <SiMysql className="w-10 h-10 md:w-12 md:h-12 text-[#5886A4] hover:scale-125 duration-500 transition-all" />
                 <RiTailwindCssFill className="w-10 h-10 md:w-12 md:h-12 text-[#3EBFF8] hover:scale-125 duration-500 transition-all" />
                 <FaGitAlt className="w-10 h-10 md:w-12 md:h-12 text-[#F05639] hover:scale-125 duration-500 transition-all" />

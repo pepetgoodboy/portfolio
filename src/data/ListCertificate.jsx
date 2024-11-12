@@ -6,6 +6,7 @@ import Cert5 from "../assets/images/cert5.png";
 import Cert6 from "../assets/images/cert6.png";
 import Cert7 from "../assets/images/cert7.jpg";
 import Cert8 from "../assets/images/cert8.png";
+import Cert9 from "../assets/images/cert9.png";
 
 const ListCertificate = [
   {
@@ -47,6 +48,11 @@ const ListCertificate = [
     id: 8,
     name: "ITS Databases",
     image: Cert8,
+  },
+  {
+    id: 9,
+    name: "HackerRank - Problem Solving",
+    image: Cert9,
   },
 ];
 
