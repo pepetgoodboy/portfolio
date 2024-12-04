@@ -6,7 +6,13 @@ import { FaHtml5, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
 import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiMysql, SiPostman } from "react-icons/si";
+import {
+  SiMongodb,
+  SiMysql,
+  SiPostman,
+  SiPhp,
+  SiLaravel,
+} from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
 export default function About() {
@@ -67,9 +73,11 @@ export default function About() {
                 <FaHtml5 className="w-10 h-10 md:w-12 md:h-12 text-[#E5532D] hover:scale-125 duration-500 transition-all" />
                 <FaCss3Alt className="w-10 h-10 md:w-12 md:h-12 text-[#2D53E5] hover:scale-125 duration-500 transition-all" />
                 <IoLogoJavascript className="w-10 h-10 md:w-12 md:h-12 text-[#F4E225] hover:scale-125 duration-500 transition-all" />
+                <SiPhp className="w-10 h-10 md:w-12 md:h-12 text-[#787CB4] hover:scale-125 duration-500 transition-all" />
                 <FaNodeJs className="w-10 h-10 md:w-12 md:h-12 text-[#87D02E] hover:scale-125 duration-500 transition-all" />
                 <FaReact className="w-10 h-10 md:w-12 md:h-12 text-[#08CEFF] hover:scale-125 duration-500 transition-all" />
                 <RiNextjsFill className="w-10 h-10 md:w-12 md:h-12 hover:scale-125 duration-500 transition-all" />
+                <SiLaravel className="w-10 h-10 md:w-12 md:h-12 text-[#FF291A] hover:scale-125 duration-500 transition-all" />
                 <SiMongodb className="w-10 h-10 md:w-12 md:h-12 text-[#499C3A] hover:scale-125 duration-500 transition-all" />
                 <SiMysql className="w-10 h-10 md:w-12 md:h-12 text-[#5886A4] hover:scale-125 duration-500 transition-all" />
                 <RiTailwindCssFill className="w-10 h-10 md:w-12 md:h-12 text-[#3EBFF8] hover:scale-125 duration-500 transition-all" />
