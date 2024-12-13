@@ -4,6 +4,7 @@ import Curhatin from "../assets/images/curhatin.png";
 import Portfolio from "../assets/images/portfolio.png";
 import Prakpoll from "../assets/images/prakpoll.png";
 import SuddenQuiz from "../assets/images/suddenquiz.png";
+import PetTodos from "../assets/images/pet-todos.png";
 import { FaReact, FaPhp, FaLaravel } from "react-icons/fa";
 import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import { SiMongodb, SiMysql, SiExpress } from "react-icons/si";
@@ -81,7 +82,7 @@ const ListProject = [
       { Icon: SiMongodb, color: "#499C3A" },
       { Icon: SiExpress, color: "#000" },
     ],
-    link: "/",
+    link: "https://prakpoll.digital/",
     github: "https://github.com/pepetgoodboy/prakpoll-frontend",
   },
   {
@@ -94,7 +95,20 @@ const ListProject = [
       { Icon: FaReact, color: "#08CEFF" },
       { Icon: RiTailwindCssFill, color: "#3EBFF8" },
     ],
-    link: "/",
+    link: "https://suddenquiz.vercel.app/",
+    github: "https://github.com/pepetgoodboy/sudden_quiz",
+  },
+  {
+    id: 7,
+    name: "Pet Todos",
+    image: PetTodos,
+    types: "Website",
+    desc: "A simple todos app made using NextJS, Tailwind CSS and Supabase for database.",
+    icon: [
+      { Icon: RiNextjsFill, color: "#000" },
+      { Icon: RiTailwindCssFill, color: "#3EBFF8" },
+    ],
+    link: "https://pet-todos.vercel.app/",
     github: "https://github.com/pepetgoodboy/sudden_quiz",
   },
 ];
