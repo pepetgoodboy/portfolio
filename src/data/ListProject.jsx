@@ -109,7 +109,7 @@ const ListProject = [
       { Icon: RiTailwindCssFill, color: "#3EBFF8" },
     ],
     link: "https://pet-todos.vercel.app/",
-    github: "https://github.com/pepetgoodboy/sudden_quiz",
+    github: "https://github.com/pepetgoodboy/pet-todos",
   },
 ];
 
