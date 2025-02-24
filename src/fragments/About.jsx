@@ -38,7 +38,7 @@ export default function About() {
             className="mx-auto mb-6 md:text-lg text-gray-500 dark:text-gray-400 sm:text-center sm:w-5/6 text-justify w-full"
           >
             Hello! My name is Muhammad Iqbal Mudzaki, you can call me Iqbal,
-            Pepet or whatever you want. I'm a 5th semester student at Politeknik
+            Pepet or whatever you want. I'm a 6th semester student at Politeknik
             Praktisi Bandung, focusing on becoming a{" "}
             <span className="text-purple-700 dark:text-purple-500">
               Frontend Web Developer

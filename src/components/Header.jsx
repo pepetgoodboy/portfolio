@@ -27,7 +27,7 @@ export default function Header() {
             </Link>
             <p>/</p>
             <Link
-              href="https://www.linkedin.com/in/muhammad-iqbal-mudzaki-84a02824a/"
+              href="https://www.linkedin.com/in/iqbalmudzaki/"
               target="_blank"
             >
               <FaLinkedin className="w-5 h-5 md:w-6 md:h-6 text-[#126BC4] hover:scale-125 duration-500 transition-all" />
