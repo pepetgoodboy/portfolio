@@ -8,6 +8,7 @@ import Cert7 from "../assets/images/cert7.jpg";
 import Cert8 from "../assets/images/cert8.png";
 import Cert9 from "../assets/images/cert9.png";
 import Cert10 from "../assets/images/cert10.png";
+import Cert11 from "../assets/images/cert11.png";
 
 const ListCertificate = [
   {
@@ -59,6 +60,11 @@ const ListCertificate = [
     id: 10,
     name: "AI Basic",
     image: Cert10,
+  },
+  {
+    id: 11,
+    name: "Web Developer Internship",
+    image: Cert11,
   },
 ];
 

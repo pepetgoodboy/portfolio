@@ -31,7 +31,7 @@ export default function Footer() {
                 <FaGithub className="w-6 h-6 text-neutral-200 hover:scale-125 duration-500 transition-all" />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/muhammad-iqbal-mudzaki-84a02824a/"
+                href="https://www.linkedin.com/in/iqbalmudzaki/"
                 target="_blank"
               >
                 <FaLinkedin className="w-6 h-6 text-neutral-200 hover:scale-125 duration-500 transition-all" />

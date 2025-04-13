@@ -50,7 +50,7 @@ export default function About() {
             overall product. Check out some of my work in the Project section.
             Feel free to Connect or Follow me on my{" "}
             <Link
-              href="https://www.linkedin.com/in/muhammad-iqbal-mudzaki-84a02824a/"
+              href="https://www.linkedin.com/in/iqbalmudzaki"
               target="_blank"
               className="text-purple-700 dark:text-purple-500"
             >
