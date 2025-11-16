@@ -38,7 +38,7 @@ export default function Home() {
                 </span>
               </h2>
               <p className="font-bold text-3xl bg-clip-text bg-gradient-to-r from-purple-700 to-purple-300 md:text-5xl pb-2 text-transparent">
-                Frontend Web Developer
+                Web Developer | n8n Enthusiast
               </p>
               <div className="flex flex-col gap-1">
                 <div className="w-full">
@@ -52,8 +52,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="mx-auto w-5/6 font-medium mt-2 text-gray-500 dark:text-gray-300">
-                I design and code beautifully simple things, and I love what I
-                do.
+                I build beautifully simple applications and smart, efficient automations.
               </p>
               <div className="mt-2">
                 <TypewriterComponent

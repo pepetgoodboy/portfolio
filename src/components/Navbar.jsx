@@ -85,7 +85,7 @@ export default function Navbar() {
               Contact
             </Link>
             <a
-              href="/document/Muhammad Iqbal Mudzaki - Frontend Web Developer.pdf"
+              href="/document/Muhammad Iqbal Mudzaki - Web & n8n Developer.pdf"
               onClick={toggleMenu}
               className="text-3xl md:text-4xl font-bold hover:text-purple-600 hover:font-extrabold"
               download

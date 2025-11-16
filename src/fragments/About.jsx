@@ -12,6 +12,7 @@ import {
   SiPostman,
   SiPhp,
   SiLaravel,
+  SiN8N,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -37,18 +38,26 @@ export default function About() {
             data-aos="fade-up"
             className="mx-auto mb-6 md:text-lg text-gray-500 dark:text-gray-400 sm:text-center sm:w-5/6 text-justify w-full"
           >
-            Hello! My name is Muhammad Iqbal Mudzaki, you can call me Iqbal,
-            Pepet or whatever you want. I'm a 6th semester student at Politeknik
-            Praktisi Bandung, focusing on becoming a{" "}
-            <span className="text-purple-700 dark:text-purple-500">
-              Frontend Web Developer
+            Hello! My name is Muhammad Iqbal Mudzaki. You can call me Iqbal,
+            Pepet or whatever you want. I'm a 6th-semester Information
+            Management student and a{" "}
+            <span className="text-purple-700 dark:text-purple-500 font-semibold">
+              Web & Automation Developer
             </span>{" "}
-            located in West Java, Indonesia. As a Frontend Web Developer I used
-            to code websites from stratch. I love to create simple yet beautiful
-            websites with great user experience. I build the Frontend of
-            Websites and Web Applications that leads to the success of the
-            overall product. Check out some of my work in the Project section.
-            Feel free to Connect or Follow me on my{" "}
+            based in West Java, Indonesia. I don't just build websites; I build
+            complete digital solutions. I specialize in developing applications
+            from scratch , using modern technologies like React, Laravel, and
+            NextJS. Beyond the code, I'm passionate about efficiency. I use n8n
+            to design and automate complex business workflows, helping teams
+            save time and focus on what truly matters. I love turning complex
+            problems into simple, beautiful, and efficient solutions. Check out
+            my work in the Project section
+            <br />
+            <br />
+            I'm actively open to job opportunities where I can contribute,
+            learn, and grow. If you have a good opportunity that matches my
+            skills in both web development and automation, please don't hesitate
+            to contact me or connect with me on{" "}
             <Link
               href="https://www.linkedin.com/in/iqbalmudzaki"
               target="_blank"
@@ -56,11 +65,6 @@ export default function About() {
             >
               Linkedin.
             </Link>{" "}
-            <br />
-            <br />
-            I'm open to Job opportunities where I can contribute, learn and
-            grow. If you have a good opportunity that matches my skills and
-            experience then don't hesitate to contact me.
           </p>
         </div>
         <div className="py-10">
@@ -82,6 +86,7 @@ export default function About() {
                 <SiMysql className="w-10 h-10 md:w-12 md:h-12 text-[#5886A4] hover:scale-125 duration-500 transition-all" />
                 <RiTailwindCssFill className="w-10 h-10 md:w-12 md:h-12 text-[#3EBFF8] hover:scale-125 duration-500 transition-all" />
                 <FaGitAlt className="w-10 h-10 md:w-12 md:h-12 text-[#F05639] hover:scale-125 duration-500 transition-all" />
+                <SiN8N className="w-10 h-10 md:w-12 md:h-12 text-[#EB4A72] hover:scale-125 duration-500 transition-all" />
               </div>
             </div>
             <div data-aos="fade-up" className="flex flex-col">
